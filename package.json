@@ -4,18 +4,41 @@
   "description": "A warm, earthy color theme with Claude cream background and fox orange accents",
   "version": "0.0.1",
   "publisher": "cfox20",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.109.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "earth tones",
+    "warm",
+    "fox",
+    "positron",
+    "r"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfox20/day-fox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cfox20/day-fox/issues"
+  },
+  "homepage": "https://github.com/cfox20/day-fox#readme",
   "contributes": {
     "themes": [
       {
         "label": "Day Fox",
         "uiTheme": "vs",
         "path": "./themes/Day Fox-color-theme.json"
+      },
+      {
+        "label": "Night Fox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Fox-color-theme.json"
       }
     ]
   }
