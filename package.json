@@ -1,0 +1,22 @@
+{
+  "name": "day-fox",
+  "displayName": "Day Fox",
+  "description": "A warm, earthy color theme with Claude cream background and fox orange accents",
+  "version": "0.0.1",
+  "publisher": "cfox20",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Day Fox",
+        "uiTheme": "vs",
+        "path": "./themes/Day Fox-color-theme.json"
+      }
+    ]
+  }
+}
