@@ -6,7 +6,7 @@
   "publisher": "cfox20",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
