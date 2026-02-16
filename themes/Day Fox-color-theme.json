@@ -2,7 +2,7 @@
 "name": "Day Fox",
 "colors": {
 		// Editor
-		"editor.background": "#F5F5F0",
+		"editor.background": "#F2EFE6",
 		"editor.foreground": "#3D2E28",
 		"editorLineNumber.foreground": "#9B9388",
 		"editorLineNumber.activeForeground": "#D17A47",
@@ -14,72 +14,72 @@
 		"editor.findMatchHighlightBackground": "#C4A05830",
 		
 		// Sidebar
-		"sideBar.background": "#EEEEE8",
+		"sideBar.background": "#E8E5DC",
 		"sideBar.foreground": "#3D2E28",
-		"sideBar.border": "#E0DED8",
+		"sideBar.border": "#D9D4C8",
 		"sideBarTitle.foreground": "#3D2E28",
-		"sideBarSectionHeader.background": "#E0DED8",
+		"sideBarSectionHeader.background": "#D9D4C8",
 		
 		// Activity Bar
-		"activityBar.background": "#EEEEE8",
+		"activityBar.background": "#E8E5DC",
 		"activityBar.foreground": "#D17A47",
 		"activityBar.activeBorder": "#D17A47",
 		"activityBar.inactiveForeground": "#5C5550",
 		
 		// Status Bar
-		"statusBar.background": "#EEEEE8",
+		"statusBar.background": "#E8E5DC",
 		"statusBar.foreground": "#3D2E28",
-		"statusBar.border": "#E0DED8",
+		"statusBar.border": "#D9D4C8",
 		
 		// Title Bar
-		"titleBar.activeBackground": "#EEEEE8",
+		"titleBar.activeBackground": "#E8E5DC",
 		"titleBar.activeForeground": "#3D2E28",
-		"titleBar.border": "#E0DED8",
+		"titleBar.border": "#D9D4C8",
 		
 		// Lists and Trees
 		"list.activeSelectionBackground": "#D17A4730",
 		"list.activeSelectionForeground": "#3D2E28",
 		"list.activeSelectionIconForeground": "#D17A47",
-		"list.inactiveSelectionBackground": "#E0DED8",
-		"list.hoverBackground": "#E0DED820",
+		"list.inactiveSelectionBackground": "#D9D4C8",
+		"list.hoverBackground": "#D9D4C820",
 		"list.focusBackground": "#D17A4720",
 		
 		// Tabs
-		"tab.activeBackground": "#F5F5F0",
-		"tab.inactiveBackground": "#EEEEE8",
+		"tab.activeBackground": "#F2EFE6",
+		"tab.inactiveBackground": "#E8E5DC",
 		"tab.activeForeground": "#3D2E28",
 		"tab.inactiveForeground": "#5C5550",
-		"tab.border": "#E0DED8",
+		"tab.border": "#D9D4C8",
 		
 		// Panel
-		"panel.background": "#FAFAF7",
-		"panel.border": "#E0DED8",
+		"panel.background": "#F5F2EB",
+		"panel.border": "#D9D4C8",
 		"panelTitle.activeBorder": "#D17A47",
 		"panelTitle.activeForeground": "#3D2E28",
 		
 		// Buttons
 		"button.background": "#D17A47",
-		"button.foreground": "#FAFAF7",
+		"button.foreground": "#F5F2EB",
 		"button.hoverBackground": "#B8704F",
 		
 		// Input
-		"input.background": "#FAFAF7",
+		"input.background": "#F5F2EB",
 		"input.foreground": "#3D2E28",
-		"input.border": "#E0DED8",
+		"input.border": "#D9D4C8",
 		"input.placeholderForeground": "#9B9388",
 		"inputOption.activeBorder": "#D17A47",
 		
 		// Notifications
-		"notificationCenter.border": "#E0DED8",
-		"notifications.background": "#FAFAF7",
-		"notifications.border": "#E0DED8",
+		"notificationCenter.border": "#D9D4C8",
+		"notifications.background": "#F5F2EB",
+		"notifications.border": "#D9D4C8",
 		
 		// Borders
-		"border": "#E0DED8",
+		"border": "#D9D4C8",
 		"focusBorder": "#D17A47",
 
 		// Terminal colors
-		"terminal.background": "#F5F5F0",
+		"terminal.background": "#F2EFE6",
 		"terminal.foreground": "#3D2E28",
 		"terminalCursor.background": "#3D2E28",
 		"terminalCursor.foreground": "#D17A47",
@@ -90,7 +90,7 @@
 		"terminal.ansiBlue": "#5680A0",
 		"terminal.ansiMagenta": "#9370A0",
 		"terminal.ansiCyan": "#7A8FA3",
-		"terminal.ansiWhite": "#E0DED8",
+		"terminal.ansiWhite": "#D9D4C8",
 		"terminal.ansiBrightBlack": "#5C5550",
 		"terminal.ansiBrightRed": "#D86767",
 		"terminal.ansiBrightGreen": "#6FAB73",
@@ -98,7 +98,7 @@
 		"terminal.ansiBrightBlue": "#6690B0",
 		"terminal.ansiBrightMagenta": "#A380B0",
 		"terminal.ansiBrightCyan": "#8A9FB3",
-		"terminal.ansiBrightWhite": "#FAFAF7",
+		"terminal.ansiBrightWhite": "#F5F2EB",
 
 		// Rainbow Parentheses/Brackets
 		"editorBracketHighlight.foreground1": "#D17A47",
