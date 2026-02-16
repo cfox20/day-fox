@@ -124,7 +124,9 @@
 			"name": "Comments",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"meta.embedded.block.r comment",
+				"markup.raw.block.quarto comment"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -158,7 +160,11 @@
 		},
 		{
 			"name": "Operators",
-			"scope": "keyword.operator",
+			"scope": [
+				"keyword.operator",
+				"meta.embedded.block.r keyword.operator",
+				"markup.raw.block.quarto keyword.operator"
+			],
 			"settings": {
 				"foreground": "#6B5747"
 			}
@@ -167,7 +173,9 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"storage"
+				"storage",
+				"meta.embedded.block.r keyword",
+				"markup.raw.block.quarto keyword"
 			],
 			"settings": {
 				"foreground": "#B8704F"
@@ -188,7 +196,9 @@
 			"scope": [
 				"constant.language",
 				"support.constant",
-				"variable.language"
+				"variable.language",
+				"meta.embedded.block.r constant.language",
+				"markup.raw.block.quarto constant.language"
 			],
 			"settings": {
 				"foreground": "#C75757"
@@ -198,7 +208,9 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"support.variable"
+				"support.variable",
+				"meta.embedded.block.r variable",
+				"markup.raw.block.quarto variable"
 			],
 			"settings": {
 				"foreground": "#D17A47"
@@ -208,7 +220,22 @@
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
+				"meta.embedded.block.r entity.name.function",
+				"meta.embedded.block.r support.function",
+				"markup.raw.block.quarto entity.name.function",
+				"markup.raw.block.quarto support.function"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5680A0"
+			}
+		},
+		{
+			"name": "R Built-in Functions",
+			"scope": [
+				"support.function.builtin.r",
+				"entity.name.function.r"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -246,7 +273,9 @@
 			"scope": [
 				"constant.numeric",
 				"constant.character",
-				"constant"
+				"constant",
+				"meta.embedded.block.r constant.numeric",
+				"markup.raw.block.quarto constant.numeric"
 			],
 			"settings": {
 				"foreground": "#C4A058"
@@ -254,7 +283,11 @@
 		},
 		{
 			"name": "Strings",
-			"scope": "string",
+			"scope": [
+				"string",
+				"meta.embedded.block.r string",
+				"markup.raw.block.quarto string"
+			],
 			"settings": {
 				"foreground": "#5F9B63"
 			}
@@ -522,6 +555,18 @@
 			"scope": "meta.diff.header.to-file",
 			"settings": {
 				"foreground": "#5C5550"
+			}
+		},
+		{
+			"name": "R Dollar Sign Accessor",
+			"scope": [
+				"variable.other.object.property.r",
+				"variable.other.property.r",
+				"meta.embedded.block.r variable.other.object.property.r",
+				"markup.raw.block.quarto variable.other.object.property.r"
+			],
+			"settings": {
+				"foreground": "#5680A0"
 			}
 		}
 	]
